@@ -35,10 +35,23 @@ footer img {
     padding-left: 10mm;
 }
 
-header3 img {
-    width: 400px;
-    height: 300px;
+header3 {
     display: flex;
     justify-content: center;
-    padding-left: 15%;
+    padding: 10mm;
+}
+
+header3 img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    right: 250px;
+    padding: 5mm;
+}
+
+header4 {
+    display: flex;
+    justify-content: end;
+    padding: 5mm;
+    list-style-type: none
 }
