@@ -7,9 +7,16 @@ body {
 
 ul {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     padding: 5mm;
     list-style-type: none
+}
+
+header2 {
+    display: flex;
+    justify-content: end;
+    padding: 2mm;
+    list-style-type: none;
 }
 
 a {
@@ -24,8 +31,14 @@ header1 {
 
 footer img {
     width: 35mm;
-    height: 29mm;
-    border: 5px solid black;
+    height: 35mm;
+    padding-left: 10mm;
+}
 
-
+header3 img {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
 }
