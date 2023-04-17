@@ -1,0 +1,67 @@
+body {
+    position: relative;
+    background: radial-gradient(circle at 10% 0, rgba(255, 255, 200, 0.986), #ffe135be, #ff9939d0, #ff7637cb, #ff4d2ec5);
+    padding-top: 25mm;
+    padding-bottom: 120mm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    padding: 5mm;
+    list-style-type: none
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header1 {
+    display: flex;
+    justify-content: center;
+    padding: 10mm;
+}
+
+.sol {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1em 1em 5em #ff0, 1em 1em 6em #ff0;
+    border-radius: 50%;
+    top: -50px;
+    left: -50px;
+    transition: 2s;
+    animation: solar 2.5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes solar {
+    0% {
+        opacity: 0;
+        transform: translate(-5vh, -4vh);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate(0vh, 0vh);
+    }
+
+    70% {
+        opacity: 0.8;
+        transform: translate(2vh, 2vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(5vh, 4vh);
+    }
+}
+
+button {
+    border-radius: 1px;
+    box-shadow: 10px 14px 3px rgb(68, 57, 57);
+
+}
